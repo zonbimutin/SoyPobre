@@ -27,7 +27,17 @@ class ViewController: UIViewController {
     
     // METHODS
     
-
-
+    @IBAction func rigthButtom(_ sender: UIButton) {
+        
+        self.imageSelected.image = UIImage(named:"violin-35026" )
+        
+    }
+    
+    @IBAction func leftButtom(_ sender: UIButton) {
+        
+        self.imageSelected.image = UIImage(named:"man-160928" )
+        
+    }
+    
 }
 
